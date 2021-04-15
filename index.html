@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="sass/main.css" />
+
+    <title>Frontend Mentor | Loopstudios landing page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="container">
+        <nav>
+          <div id="logo">
+            <img src="images/logo.svg" alt="" />
+          </div>
+          <img onclick="showMenu()" src="images/icon-hamburger.svg" alt="" />
+          <a class="nav-links" href="#">About</a>
+          <a class="nav-links" href="#">Careers</a>
+          <a class="nav-links" href="#">Events</a>
+          <a class="nav-links" href="#">Products</a>
+          <a class="nav-links" href="#">Support</a>
+        </nav>
+        <div class="motto">
+          <h1>Immersive experiences that deliver</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="menutoogle" id="toogle">
+      <nav>
+        <div id="logo">
+          <img src="images/logo.svg" alt="" />
+        </div>
+        <img onclick="closeMenu()" src="images/icon-close.svg" alt="" />
+        <a class="nav-linked first" href="#">About</a>
+        <a class="nav-linked" href="#">Careers</a>
+        <a class="nav-linked" href="#">Events</a>
+        <a class="nav-linked" href="#">Products</a>
+        <a class="nav-linked" href="#">Support</a>
+      </nav>
+    </div>
+
+    <!-- Silahkan masukkan html utnuk body disini  -->
+    <section class="leader">
+      <div class="container">
+        <div class="vr-img"></div>
+        <div class="content">
+          <h2>THE LEADER IN INTERACTIVE VR</h2>
+          <p>
+            Founded in 2011, Loopstudios has been producing world-class virtual
+            reality projects for some of the best companies around the globe.
+            Our award-winning creations have transformed businesses through
+            digital experiences that bind to their brand.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="creation">
+      <div class="container">
+        <h2>OUR CREATIONS</h2>
+        <button>SEE ALL</button>
+      </div>
+      <div class="container card-creation">
+        <div class="card">
+          <h3>DEEP<br />EARTH</h3>
+        </div>
+        <div class="card">
+          <h3>NIGHT<br />ARCADE</h3>
+        </div>
+        <div class="card">
+          <h3>SOCCER<br />TEAM VR</h3>
+        </div>
+        <div class="card">
+          <h3>THE<br />GRID</h3>
+        </div>
+        <div class="card">
+          <h3>FROM UP<br />ABOVE VR</h3>
+        </div>
+        <div class="card">
+          <h3>POCKET<br />BOREALIS</h3>
+        </div>
+        <div class="card">
+          <h3>THE<br />CURIOSITY</h3>
+        </div>
+        <div class="card">
+          <h3>MAKE IT<br />FISHEYE</h3>
+        </div>
+      </div>
+      <button>SEE ALL</button>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="col">
+          <img id="footer-logo" src="images/logo.svg" alt="" />
+          <div id="footer-links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Support</a></li>
+          </div>
+        </div>
+        <div class="col">
+          <ul id="social-media">
+            <li>
+              <a href="#"><img src="images/icon-facebook.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/icon-twitter.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/icon-pinterest.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/icon-instagram.svg" alt="" /></a>
+            </li>
+          </ul>
+          <p id="footer-text">
+            © 2021 Loopstudios. All rights reserved. Challenge by
+            <a
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank"
+              >Frontend Mentor</a
+            >. Coded by <a href="#">Andika Amri</a>.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    function showMenu() {
+      document.getElementById("toogle").style.display = "block";
+    }
+    function closeMenu() {
+      document.getElementById("toogle").style.display = "none";
+    }
+  </script>
+</html>

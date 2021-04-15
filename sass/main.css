@@ -1,0 +1,574 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
+body {
+  min-width: 447px;
+  font-family: "Alata", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.hide-desktop {
+  display: none;
+}
+
+.menutoogle {
+  display: none;
+}
+
+.jumbotron {
+  background-image: url("../images/desktop/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 145px;
+  margin-bottom: 160px;
+}
+
+.jumbotron nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.jumbotron nav #logo {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  text-align: left;
+}
+
+.jumbotron nav #logo img {
+  display: block;
+}
+
+.jumbotron nav img {
+  display: none;
+}
+
+.jumbotron nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.jumbotron .motto {
+  width: 652px;
+  text-align: left;
+  padding: 44px 70px 44px 27px;
+  margin-top: 30px;
+  border: 2px solid white;
+}
+
+.jumbotron .motto h1 {
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: white;
+}
+
+.leader {
+  padding: 0px 0px 184px 0px;
+}
+
+.leader .vr-img {
+  width: 729px;
+  height: 501px;
+  background-image: url("../images/desktop/image-interactive.jpg");
+  display: block;
+}
+
+.leader .content {
+  background-color: #fff;
+  padding: 98px 0px 0px 100px;
+  width: 545px;
+  height: 318px;
+  position: relative;
+  right: 20px;
+  margin-top: -318px;
+  float: right;
+}
+
+.leader .content h2 {
+  font-size: 3rem;
+  padding-bottom: 47px;
+}
+
+.leader .content p {
+  color: #8c8c8c;
+  font-family: "Alata", sans-serif;
+  font-size: 15px;
+}
+
+.creation {
+  margin-bottom: 184px;
+}
+
+.creation h2 {
+  font-size: 48px;
+  letter-spacing: 4px;
+  float: left;
+}
+
+.creation .container button {
+  display: block;
+}
+
+.creation button {
+  display: none;
+}
+
+.creation button {
+  letter-spacing: 4px;
+  font-size: 15px;
+  float: right;
+  background: #fff;
+  border: 2px solid #000;
+  padding: 7px 21px;
+  border-radius: 0px;
+  cursor: pointer;
+  font-family: "Alata", sans-serif;
+}
+
+.creation .card-creation {
+  padding-top: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.creation .card-creation .card {
+  width: 257px;
+  height: 450px;
+  display: inline-block;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.creation .card-creation .card:nth-child(1) {
+  background-image: url("../images/desktop/image-deep-earth.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.creation .card-creation .card:nth-child(2) {
+  background-image: url("../images/desktop/image-night-arcade.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.creation .card-creation .card:nth-child(3) {
+  background-image: url("../images/desktop/image-soccer-team.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.creation .card-creation .card:nth-child(4) {
+  background-image: url("../images/desktop/image-grid.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.creation .card-creation .card:nth-child(5) {
+  background-image: url("../images/desktop/image-from-above.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.creation .card-creation .card:nth-child(6) {
+  background-image: url("../images/desktop/image-pocket-borealis.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.creation .card-creation .card:nth-child(7) {
+  background-image: url("../images/desktop/image-curiosity.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.creation .card-creation .card:nth-child(8) {
+  background-image: url("../images/desktop/image-fisheye.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.creation .card-creation .card:nth-child(2), .creation .card-creation .card:nth-child(6) {
+  margin-left: 4px;
+  margin-right: 2px;
+}
+
+.creation .card-creation .card:nth-child(3), .creation .card-creation .card:nth-child(7) {
+  margin-left: 2px;
+  margin-right: 4px;
+}
+
+.creation .card-creation .card h3 {
+  font-size: 32px;
+  color: #fff;
+  position: relative;
+  margin-top: 350px;
+  margin-left: 40px;
+  display: block;
+}
+
+.container {
+  width: 1115px;
+  margin: 0 auto;
+}
+
+.col {
+  width: 49%;
+  display: inline-block;
+}
+
+#hamburger {
+  display: none;
+}
+
+footer #social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 30px;
+}
+
+footer #social-media li {
+  margin-left: 20px;
+}
+
+footer #footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer #footer-links li {
+  margin-right: 20px;
+}
+
+footer #footer-text {
+  text-align: right;
+}
+
+footer {
+  padding-top: 40px;
+  padding-bottom: 45px;
+  background-color: black;
+}
+
+footer #footer-logo {
+  margin-bottom: 33px;
+}
+
+footer #footer-links {
+  list-style-type: none;
+}
+
+footer #footer-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer #footer-text {
+  color: #7a7a7a;
+}
+
+footer #footer-text a {
+  color: aqua;
+}
+
+@media screen and (max-width: 478px) {
+  body {
+    text-align: center;
+  }
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .col {
+    width: 100%;
+    display: inline-block;
+  }
+  .jumbotron {
+    background-image: url("../images/mobile/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 808px;
+    margin-bottom: 75px;
+  }
+  .jumbotron nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 45px;
+    padding-bottom: 0px;
+  }
+  .jumbotron nav #logo {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    text-align: left;
+  }
+  .jumbotron nav img {
+    display: block;
+  }
+  .jumbotron nav a {
+    color: white;
+    text-decoration: none;
+  }
+  .jumbotron .motto {
+    width: 100%;
+    text-align: left;
+    padding: 13px;
+    margin-bottom: 75px;
+    margin-top: 205px;
+    margin-bottom: 288px;
+    border: 2px solid white;
+  }
+  .jumbotron .motto h1 {
+    font-size: 3.125rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+  }
+  .menutoogle {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0px;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    padding: 50px 40px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .menutoogle nav #logo {
+    text-align: left;
+  }
+  .menutoogle nav #logo img {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    text-align: left;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .menutoogle nav img {
+    position: absolute;
+    right: 30px;
+    top: 55px;
+    cursor: pointer;
+  }
+  .menutoogle nav .first {
+    margin-top: 40% !important;
+  }
+  .menutoogle nav .nav-linked {
+    display: block;
+    color: #8c8c8c;
+    text-decoration: none;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: left;
+    margin-top: 26px;
+  }
+  .leader {
+    padding: 0px 0px 100px 0px;
+  }
+  .leader .vr-img {
+    width: 100%;
+    height: 279px;
+    background-image: url("../images/mobile/image-interactive.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0px auto;
+    background-size: cover;
+  }
+  .leader .content {
+    background-color: #fff;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 0px;
+    right: 0;
+    float: none;
+  }
+  .leader .content h2 {
+    font-size: 3rem;
+    padding-bottom: 40px;
+    padding-top: 62px;
+  }
+  .leader .content p {
+    color: #8c8c8c;
+    font-family: "Alata", sans-serif;
+    font-size: 15px;
+  }
+  .creation {
+    margin-bottom: 100px;
+  }
+  .creation h2 {
+    font-size: 44px;
+    letter-spacing: 4px;
+    float: none;
+  }
+  .creation .container button {
+    display: none;
+  }
+  .creation button {
+    display: block;
+  }
+  .creation button {
+    letter-spacing: 4px;
+    font-size: 20px;
+    float: none;
+    background: #fff;
+    border: 2px solid #000;
+    padding: 15px 35px;
+    border-radius: 0px;
+    cursor: pointer;
+    font-family: "Alata", sans-serif;
+    display: block;
+    position: relative;
+    margin: 0px auto;
+    margin-top: 40px;
+  }
+  .creation .card-creation {
+    padding-top: 50px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .creation .card-creation .card {
+    width: 100%;
+    height: 153px;
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  .creation .card-creation .card:nth-child(1) {
+    background-image: url("../images/mobile/image-deep-earth.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .creation .card-creation .card:nth-child(2) {
+    background-image: url("../images/mobile/image-night-arcade.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .creation .card-creation .card:nth-child(3) {
+    background-image: url("../images/mobile/image-soccer-team.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .creation .card-creation .card:nth-child(4) {
+    background-image: url("../images/mobile/image-grid.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .creation .card-creation .card:nth-child(5) {
+    background-image: url("../images/mobile/image-from-above.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .creation .card-creation .card:nth-child(6) {
+    background-image: url("../images/mobile/image-pocket-borealis.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .creation .card-creation .card:nth-child(7) {
+    background-image: url("../images/mobile/image-curiosity.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .creation .card-creation .card:nth-child(8) {
+    background-image: url("../images/mobile/image-fisheye.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .creation .card-creation .card:nth-child(2), .creation .card-creation .card:nth-child(6) {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .creation .card-creation .card:nth-child(3), .creation .card-creation .card:nth-child(7) {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .creation .card-creation .card:nth-child(8) {
+    margin-bottom: 0px;
+  }
+  .creation .card-creation .card h3 {
+    font-size: 32px;
+    color: #fff;
+    position: relative;
+    padding-top: 67px;
+    display: block;
+    text-align: left;
+    padding-left: 21px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  footer #footer-text {
+    text-align: center;
+  }
+  #footer-links {
+    text-align: center;
+    display: block !important;
+  }
+  #footer-links li {
+    padding-top: 27px;
+    padding-bottom: 27px;
+    margin-right: 0px !important;
+  }
+  .hide-mobile {
+    display: none;
+  }
+  .nav-links {
+    display: none;
+  }
+  #social-media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex !important;
+    -webkit-box-pack: justify !important;
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+    width: 40%;
+    margin: 45px auto 27px auto !important;
+    text-align: center;
+  }
+  #social-media li:first-child {
+    margin-left: 0px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
